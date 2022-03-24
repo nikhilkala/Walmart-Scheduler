@@ -12,7 +12,9 @@ This program takes an input file containing customer's requests for reserving se
 1. A good metric for customer satisfaction is that all groups of customers want to be seated as far away from the screen as possible.
 2. The rows furthest from the screen give the most customer satisfaction, and it decreases as the seats assigned are closer to the screen.
 3. A group of people who are booking the tickets want to be seated together, they won't be split.
-4. The reservation requests that arrive first should be handled first. (First Come First Serve)
+4. Since a group is seated together, there is a limit of 20 tickets per booking, this also helps in handling misuse of tickets.
+5. The reservation requests that arrive first should be handled first. (First Come First Serve)
+
 
 
 ## Algorithm:
